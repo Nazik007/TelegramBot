@@ -1,2 +1,4 @@
-package default_set.bot_settings.bot_commands.setting.reminders.options;public class SetRemindersAt16 {
+package default_set.bot_settings.bot_commands.setting.reminders.options;
+
+public class SetRemindersAt16 {
 }

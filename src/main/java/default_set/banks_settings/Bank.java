@@ -1,4 +1,4 @@
-package default_set;
+package default_set.banks_settings;
 
 import java.util.List;
 
@@ -8,8 +8,8 @@ public abstract class Bank {
 
     public abstract List<Exchange> getExchangeList();
 
-    public Bank(String commandName, String name) {
-        this.commandName = commandName;
+    public Bank(String commandLine, String name) {
+        this.commandName = commandLine;
         this.name = name;
     }
 
