@@ -14,7 +14,7 @@ public class InMemorySupport implements Support{
     }
 
     @Override
-    public boolean contains(long chatId) {
+    public boolean  contains(long chatId) {
         return chatSettings.stream().anyMatch(chatSetting -> chatSetting.getChatId() == chatId);
     }
 

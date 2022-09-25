@@ -6,7 +6,7 @@ import support_classes.InMemorySupport;
 import support_classes.Support;
 
 public class AppLauncher {
-    public static void main(String[] args) throws TelegramApiException {
+    public static void main (String[] args) throws TelegramApiException {
         TelegramBotsApi telegramBotsApi = new TelegramBotsApi(DefaultBotSession.class);
         Support chatSettings = new InMemorySupport();
         try {

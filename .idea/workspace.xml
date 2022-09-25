@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="120ec15c-2a1e-4997-ac75-22d938712f58" name="Changes" comment="Fixed the issue with languages">
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/Resource_ua.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/resources/Resources_us.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/banks_util/monobank/CurrencyCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/banks_util/monobank/CurrencyCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/banks_util/monobank/DefaultCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/banks_util/monobank/Code.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/banks_util/monobank/MonoExchange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/banks_util/monobank/MonoExchange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/banks_settings/Exchange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/banks_settings/Exchange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/BotConstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/BotConstance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/ChatSetting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/ChatSetting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/TelegramBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/TelegramBot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/languages/options/LanguageEN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/languages/options/LanguageUS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/reminders/options/SetReminderAt10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/reminders/options/SetReminderAt10.java" afterDir="false" />
-    </list>
+    <list default="true" id="120ec15c-2a1e-4997-ac75-22d938712f58" name="Changes" comment="Tried to create the new one to work" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +73,7 @@
       <workItem from="1663937776837" duration="22051000" />
       <workItem from="1664125223822" duration="140000" />
       <workItem from="1664125380187" duration="6967000" />
-      <workItem from="1664138122096" duration="444000" />
+      <workItem from="1664138122096" duration="966000" />
     </task>
     <task id="LOCAL-00001" summary="Added logic and created template of the program">
       <created>1663972347935</created>
@@ -102,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664129276886</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Tried to create the new one to work">
+      <created>1664139084645</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664139084645</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,6 +116,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added logic and created template of the program" />
     <MESSAGE value="Fixed the issue with languages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed the issue with languages" />
+    <MESSAGE value="Tried to create the new one to work" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tried to create the new one to work" />
   </component>
 </project>

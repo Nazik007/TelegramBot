@@ -14,5 +14,5 @@ public interface Support {
 
     ChatSetting getSetting (long chatId);
 
-    List<ChatSetting> getListOfSettings ();
+    List<ChatSetting>  getListOfSettings ();
 }
