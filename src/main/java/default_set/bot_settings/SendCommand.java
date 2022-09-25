@@ -38,6 +38,5 @@ public abstract class SendCommand extends Command {
                 settingsButtons.add(List.of(command.getButton()));
             }
         }
-        //settingsButtons.add(List.of(Start.getHomeButton(), getBackButton()));
     }
 }

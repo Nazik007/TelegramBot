@@ -21,7 +21,7 @@ public class LanguageEN extends EditCommand {
 
     @Override
     public void setSetting(ChatSetting chatSetting, Support support) {
-        Locale localeUS = new Locale("en");
+        Locale localeUS = new Locale("us");
         chatSetting.setLocale(localeUS);
         support.add(chatSetting.getChatId(), chatSetting);
         TelegramBot.changeLocal(localeUS);

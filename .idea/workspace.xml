@@ -4,60 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="120ec15c-2a1e-4997-ac75-22d938712f58" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="120ec15c-2a1e-4997-ac75-22d938712f58" name="Changes" comment="Added logic and created template of the program">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AppLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AppLauncher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/banks_util/HttpUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/banks_util/HttpUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/banks_util/monobank/CurrencyCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/banks_util/monobank/CurrencyCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/banks_util/monobank/DefaultCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/banks_util/monobank/DefaultCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/banks_util/monobank/MonoExchange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/banks_util/monobank/MonoExchange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/banks_util/monobank/MonobankUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/banks_util/monobank/MonobankUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/banks_util/nbu/NBUExchange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/banks_util/nbu/NBUExchange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/banks_util/nbu/NBUUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/banks_util/nbu/NBUUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/banks_util/privatbank/PrivatBankUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/banks_util/privatbank/PrivatBankUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/banks_settings/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/banks_settings/Bank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/banks_settings/Currency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/banks_settings/Currency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/banks_settings/Exchange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/banks_settings/Exchange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/BotConstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/BotConstance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/ChatSetting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/ChatSetting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/EditCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/EditCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/SendCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/SendCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/TelegramBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/TelegramBot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/info/GetInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/info/GetInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/Setting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/Setting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/bank/BankSetting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/bank/BankSetting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/bank/options/SetBankMonobank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/bank/options/SetBankMonobank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/bank/options/SetBankNBU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/bank/options/SetBankNBU.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/bank/options/SetBankPrivatbank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/bank/options/SetBankPrivatbank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/currency/CurrencySetting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/currency/CurrencySetting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/currency/options/EUR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/currency/options/EUR.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/currency/options/GBP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/currency/options/GBP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/currency/options/USD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/currency/options/USD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/languages/LanguagesSetting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/languages/LanguagesSetting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/languages/options/LanguageEN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/languages/options/LanguageEN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/languages/options/LanguageUA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/languages/options/LanguageUA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/reminders/ReminderSetting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/reminders/ReminderSetting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/reminders/options/SetReminderAt10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/reminders/options/SetReminderAt10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/reminders/options/SetReminderAt11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/reminders/options/SetReminderAt11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/reminders/options/SetReminderAt9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/reminders/options/SetReminderAt9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/reminders/options/SetRemindersAt12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/reminders/options/SetRemindersAt12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/reminders/options/SetRemindersAt13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/reminders/options/SetRemindersAt13.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/reminders/options/SetRemindersAt14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/reminders/options/SetRemindersAt14.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/reminders/options/SetRemindersAt15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/reminders/options/SetRemindersAt15.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/reminders/options/SetRemindersAt16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/reminders/options/SetRemindersAt16.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/reminders/options/SetRemindersAt17.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/reminders/options/SetRemindersAt17.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/reminders/options/SetRemindersAt18.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/reminders/options/SetRemindersAt18.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/reminders/options/SetRemindersAtNone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/reminders/options/SetRemindersAtNone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/round/Options/RoundToFour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/round/Options/RoundToFour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/round/Options/RoundToThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/round/Options/RoundToThree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/round/Options/RoundToTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/round/Options/RoundToTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/round/RoundSetting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/round/RoundSetting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/start/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/start/Start.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/support_classes/InMemorySupport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/support_classes/InMemorySupport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/support_classes/Support.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/support_classes/Support.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,12 +41,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="banks_util.monobank" />
@@ -124,8 +75,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1663937775171</updated>
-      <workItem from="1663937776837" duration="20956000" />
+      <workItem from="1663937776837" duration="22051000" />
+      <workItem from="1664125223822" duration="140000" />
+      <workItem from="1664125380187" duration="2033000" />
     </task>
+    <task id="LOCAL-00001" summary="Added logic and created template of the program">
+      <created>1663972347935</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663972347935</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,5 +102,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added logic and created template of the program" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added logic and created template of the program" />
   </component>
 </project>
