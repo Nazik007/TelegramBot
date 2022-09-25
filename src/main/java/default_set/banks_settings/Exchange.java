@@ -52,23 +52,23 @@ public class Exchange {
         this.sale = sale;
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Exchange exchange = (Exchange) o;
-        return ccy.equals(exchange.ccy);
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(ccy);
-    }
-
-    @Override
-    public String toString() {
-        return ccy + '\'' + base_ccy + System.lineSeparator() +
-                "Купівля: " + buy +
-                "Продаж: " + sale + System.lineSeparator();
-    }
+//    @Override
+//    public boolean equals(Object o) {
+//        if (this == o) return true;
+//        if (o == null || getClass() != o.getClass()) return false;
+//        Exchange exchange = (Exchange) o;
+//        return ccy.equals(exchange.ccy);
+//    }
+//
+//    @Override
+//    public int hashCode() {
+//        return Objects.hash(ccy);
+//    }
+//
+//    @Override
+//    public String toString() {
+//        return ccy + '\'' + base_ccy + System.lineSeparator() +
+//                "Купівля: " + buy +
+//                "Продаж: " + sale + System.lineSeparator();
+//    }
 }

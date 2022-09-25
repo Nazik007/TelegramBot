@@ -28,7 +28,7 @@ public class BankSetting extends SendCommand {
     }
 
     @Override
-    public List<List<InlineKeyboardButton>> getKeyboard(ChatSetting chatSetting) {
+    public  List<List<InlineKeyboardButton>> getKeyboard(ChatSetting chatSetting) {
         Gson gson = new Gson();
         return Stream.concat(
                 settingsButtons.stream()

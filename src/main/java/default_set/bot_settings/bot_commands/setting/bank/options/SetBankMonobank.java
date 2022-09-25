@@ -8,10 +8,10 @@ import support_classes.Support;
 
 public class SetBankMonobank extends EditCommand {
 
-    protected static final String COMMAND_NAME = "/setMonobank";
-    protected static final String BUTTON_TEXT = "Монобанк";
-    protected static final String COMMAND_RESULT_TEXT = "Ваш банк - Монобанк";
-    protected static final String PARENT_COMMAND = BankSetting.COMMAND_NAME;
+     protected static final String COMMAND_NAME = "/setMonobank";
+     protected static final String BUTTON_TEXT = "Монобанк";
+     protected static final String COMMAND_RESULT_TEXT = "Ваш банк - Монобанк";
+     protected static final String PARENT_COMMAND = BankSetting.COMMAND_NAME;
 
 
     public SetBankMonobank() {

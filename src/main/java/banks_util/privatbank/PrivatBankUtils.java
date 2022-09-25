@@ -27,7 +27,7 @@ public class PrivatBankUtils extends Bank {
     }
 
     public static void updateExchangeList () {
-        List<Exchange> exchangeList = HttpUtils.getExchangeList(URL,TYPE_TOKEN);
+         List<Exchange> exchangeList = HttpUtils.getExchangeList(URL,TYPE_TOKEN);
         synchronized (EXCHANGES){
             EXCHANGES.clear();
             EXCHANGES.addAll(exchangeList);

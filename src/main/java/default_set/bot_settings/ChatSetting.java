@@ -1,6 +1,7 @@
 package default_set.bot_settings;
 
 
+import banks_util.monobank.MonobankUtils;
 import banks_util.privatbank.PrivatBankUtils;
 import default_set.banks_settings.Bank;
 import default_set.banks_settings.Currency;
@@ -41,7 +42,7 @@ public class ChatSetting {
         currencyList.add(Currency.USD);
         setting.setCurrencies(currencyList);
         setting.setReminderTime(13);
-        setting.setLocale(new Locale("ua"));
+        setting.setLocale(new Locale("us"));
         return setting;
 
     }

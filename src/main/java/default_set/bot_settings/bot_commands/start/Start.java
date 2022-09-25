@@ -40,7 +40,7 @@ public class Start extends SendCommand {
     }
 
     @Override
-    public List<List<InlineKeyboardButton>> getKeyboard(ChatSetting chatSetting) {
+    public  List<List<InlineKeyboardButton>> getKeyboard(ChatSetting chatSetting) {
         return settingsButtons;
     }
 

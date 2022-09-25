@@ -1,10 +1,10 @@
 package banks_util.monobank;
 
-public class DefaultCode {
+public class Code {
     public int code;
     public String name;
 
-    public DefaultCode(int code, String name) {
+    public Code(int code, String name) {
         this.code = code;
         this.name = name;
     }

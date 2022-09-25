@@ -64,8 +64,8 @@ public class MonoExchange {
     }
 
     public Exchange getExchange() {
-        String ccy = CurrencyCode.codes.stream().filter(code -> code.getCode() == this.currencyCodeA).map(DefaultCode::getName).findFirst().orElse(" ");
-        String base_ccy = CurrencyCode.codes.stream().filter(code -> code.getCode() == this.currencyCodeB).map(DefaultCode::getName).findFirst().orElse(" ");
+        String ccy = CurrencyCode.codes.stream().filter(code -> code.getCode() == this.currencyCodeA).map(Code::getName).findFirst().orElse(" ");
+        String base_ccy = CurrencyCode.codes.stream().filter(code -> code.getCode() == this.currencyCodeB).map(Code::getName).findFirst().orElse(" ");
         double bay = rateBuy != 0.0 ? rateBuy : rateCross;
         double sell = rateSell != 0.0 ? rateSell : rateCross;
         return new Exchange(ccy, base_ccy, bay, sell);

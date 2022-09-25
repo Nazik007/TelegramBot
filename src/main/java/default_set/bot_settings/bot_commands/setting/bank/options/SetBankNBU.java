@@ -17,7 +17,7 @@ public class SetBankNBU extends EditCommand {
         super(COMMAND_NAME, BUTTON_TEXT, COMMAND_RESULT_TEXT, PARENT_COMMAND);
     }
     @Override
-    public void setSetting(ChatSetting chatSetting, Support support) {
+    public void  setSetting(ChatSetting chatSetting, Support support) {
         chatSetting.setBank(new NBUUtils());
         support.add(chatSetting.getChatId(), chatSetting);
     }

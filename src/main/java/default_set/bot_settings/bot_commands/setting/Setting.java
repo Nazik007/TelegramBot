@@ -25,7 +25,7 @@ public class Setting extends SendCommand {
     }
 
     @Override
-    public InlineKeyboardButton getBackButton() {
+    public  InlineKeyboardButton getBackButton() {
         InlineKeyboardButton button = new InlineKeyboardButton();
         button.setText(EmojiParser.parseToUnicode(":back:" + "Назад"));
         button.setCallbackData(PARENT_COMMAND);

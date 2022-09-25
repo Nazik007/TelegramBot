@@ -31,7 +31,7 @@ public class ReminderSetting extends SendCommand {
         return button;
     }
     @Override
-    protected void setSettingsButtons() {
+    protected void  setSettingsButtons() {
         settingsButtons.clear();
 
         List<InlineKeyboardButton> buttonsRow = new ArrayList<>();

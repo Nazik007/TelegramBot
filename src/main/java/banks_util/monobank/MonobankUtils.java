@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class MonobankUtils extends Bank {
+public class MonobankUtils extends Bank  {
 
     private final static String URL = "https://api.monobank.ua/bank/currency";
     public static final String COMMAND_NAME = "/setMonobank";

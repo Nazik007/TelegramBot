@@ -17,7 +17,7 @@ public class RoundToTwo extends EditCommand {
     }
 
     @Override
-    public void setSetting(ChatSetting chatSetting, Support support) {
+    public void  setSetting(ChatSetting chatSetting, Support support) {
         chatSetting.setRoundDigit(2);
         support.add(chatSetting.getChatId(), chatSetting);
     }

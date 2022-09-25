@@ -25,7 +25,7 @@ public abstract class EditCommand extends  Command {
                 .build();
     }
 
-    private SendCommand getParentCommandObj(String parentCommand) {
+    private  SendCommand getParentCommandObj(String parentCommand) {
         return getSendCommands().stream()
                 .filter(sendCommand -> sendCommand.getCommandName().equals(parentCommand))
                 .findFirst()

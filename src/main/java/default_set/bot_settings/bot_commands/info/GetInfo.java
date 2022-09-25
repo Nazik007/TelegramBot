@@ -29,7 +29,7 @@ public class GetInfo extends SendCommand {
         super(COMMAND_NAME, BUTTON_TEXT, COMMAND_RESULT_TEXT, PARENT_COMMAND);
     }
 
-    private String getExchangeAfterRoundResults(Exchange exchange, ChatSetting chatSetting) {
+    private  String getExchangeAfterRoundResults(Exchange exchange, ChatSetting chatSetting) {
         BigDecimal sale = BigDecimal.valueOf(exchange.getSale()).setScale(chatSetting.getRoundDigit(), RoundingMode.HALF_UP);
         BigDecimal buy = BigDecimal.valueOf(exchange.getBuy()).setScale(chatSetting.getRoundDigit(), RoundingMode.HALF_UP);
         return exchange.ccy + '\\' + exchange.base_ccy + System.lineSeparator() +

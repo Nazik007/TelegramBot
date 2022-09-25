@@ -20,7 +20,7 @@ public class LanguageUA extends EditCommand {
     }
 
     @Override
-    public void setSetting(ChatSetting chatSetting, Support support) {
+    public void  setSetting(ChatSetting chatSetting, Support support) {
         Locale localeUA = new Locale("ua");
         chatSetting.setLocale(localeUA);
         support.add(chatSetting.getChatId(), chatSetting);

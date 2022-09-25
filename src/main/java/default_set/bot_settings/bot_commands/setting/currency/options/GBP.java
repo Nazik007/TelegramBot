@@ -17,7 +17,7 @@ public class GBP extends EditCommand {
 
     public GBP() {
 
-        super(COMMAND_NAME, BUTTON_TEXT, COMMAND_RESULT_TEXT, PARENT_COMMAND);
+        super (COMMAND_NAME, BUTTON_TEXT, COMMAND_RESULT_TEXT, PARENT_COMMAND);
     }
 
     @Override

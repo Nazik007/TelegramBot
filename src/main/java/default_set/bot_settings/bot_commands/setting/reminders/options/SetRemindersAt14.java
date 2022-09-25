@@ -16,7 +16,7 @@ public class SetRemindersAt14 extends EditCommand {
     }
 
     @Override
-    public void setSetting(ChatSetting chatSetting, Support support) {
+    public void  setSetting(ChatSetting chatSetting, Support support) {
         chatSetting.setReminderTime(14);
         support.add(chatSetting.getChatId(), chatSetting);
     }

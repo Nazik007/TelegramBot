@@ -24,7 +24,7 @@ public class NBUUtils extends Bank {
     }
 
     static {
-        updateExchangeList();
+         updateExchangeList();
     }
 
 

@@ -20,7 +20,7 @@ public class NBUExchange {
         return r030;
     }
 
-    public void setR030(int r030) {
+    public void setR030 (int r030) {
         this.r030 = r030;
     }
 

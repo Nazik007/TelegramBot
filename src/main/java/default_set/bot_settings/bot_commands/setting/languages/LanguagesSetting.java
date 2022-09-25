@@ -27,7 +27,7 @@ public class LanguagesSetting extends SendCommand {
     }
 
     @Override
-    public List<List<InlineKeyboardButton>> getKeyboard(ChatSetting chatSetting) {
+    public  List<List<InlineKeyboardButton>> getKeyboard(ChatSetting chatSetting) {
         List<List<InlineKeyboardButton>> settingsButtonsCopy = new ArrayList<>();
         Gson gson = new Gson();
         for (List<InlineKeyboardButton> row : settingsButtons

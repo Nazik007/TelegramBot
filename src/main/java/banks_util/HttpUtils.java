@@ -22,6 +22,6 @@ public class HttpUtils {
         }catch (IOException | InterruptedException exception) {
             throw new RuntimeException(exception);
         }
-        return new Gson().fromJson(response.body(), typeToken);
+         return new Gson().fromJson(response.body(), typeToken);
     }
 }

@@ -13,7 +13,7 @@ public abstract class Bank {
         this.name = name;
     }
 
-    public String getCommandName() {
+    public String getCommandName()  {
         return commandName;
     }
 

@@ -21,7 +21,7 @@ public class EUR extends EditCommand  {
     }
 
     @Override
-    public void setSetting(ChatSetting chatSetting, Support support) {
+    public void  setSetting(ChatSetting chatSetting, Support support) {
         List<Currency> currencies = chatSetting.getCurrencies();
         if (chatSetting.getCurrencies().contains(Currency.EUR)) {
             currencies.remove(Currency.EUR);
