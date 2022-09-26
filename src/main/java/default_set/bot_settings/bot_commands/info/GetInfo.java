@@ -97,4 +97,5 @@ public class GetInfo extends SendCommand {
     public InlineKeyboardButton getBackButton() {
         return null;
     }
+
 }
