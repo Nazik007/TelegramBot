@@ -11,7 +11,9 @@ import java.util.List;
 
 public class PrivatBankUtils extends Bank {
 
-    private static final String URL = "https://api.privatbank.ua/p24api/pubinfo?json&exchange&coursid=12";
+    private static final String URL = "https://api.privatbank.ua/p24api/pubinfo?json&exchange&coursid=5";
+    private static final String GBP_URL = "https://api.privatbank.ua/p24api/pubinfo?json&exchange&coursid=12";
+
     public static final String COMMAND_NAME = "/setPrivatbank";
     protected static final String NAME = "ПриватБанк";
 
@@ -28,7 +30,14 @@ public class PrivatBankUtils extends Bank {
 
     public static void updateExchangeList () {
          List<Exchange> exchangeList = HttpUtils.getExchangeList(URL,TYPE_TOKEN);
+         List<Exchange> exchangeListGbp = HttpUtils.getExchangeList(GBP_URL,TYPE_TOKEN);
         synchronized (EXCHANGES){
+            for (Exchange exchange : exchangeListGbp){
+                if(exchange.getCcy().equals("GBP")){
+                    exchangeList.add(exchange);
+                    break;
+                }
+            }
             EXCHANGES.clear();
             EXCHANGES.addAll(exchangeList);
         }
