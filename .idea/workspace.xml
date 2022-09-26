@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="120ec15c-2a1e-4997-ac75-22d938712f58" name="Changes" comment="Tried to create the new one to work">
+    <list default="true" id="120ec15c-2a1e-4997-ac75-22d938712f58" name="Changes" comment="Added GPB for Privat">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/banks_util/privatbank/PrivatBankUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/banks_util/privatbank/PrivatBankUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/banks_settings/Exchange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/banks_settings/Exchange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/info/GetInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/info/GetInfo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664139084645</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added GPB for Privat">
+      <created>1664191635995</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664191635995</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +129,7 @@
     <MESSAGE value="Added logic and created template of the program" />
     <MESSAGE value="Fixed the issue with languages" />
     <MESSAGE value="Tried to create the new one to work" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tried to create the new one to work" />
+    <MESSAGE value="Added GPB for Privat" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added GPB for Privat" />
   </component>
 </project>

@@ -22,8 +22,8 @@ public class GetInfo extends SendCommand {
     protected static final String COMMAND_RESULT_TEXT = "EmptyText";
     protected static final String PARENT_COMMAND = Start.COMMAND_NAME;
     protected static  String resultText = "Результати не знайдені";
-    protected static  String buyText = "Покупка";
-    protected static  String sellText = "Продажа";
+    protected static  String buyText = "Купівля\t";
+    protected static  String sellText = "Продаж\t";
     protected static  String courseText = "Курс в ";
     public GetInfo() {
         super(COMMAND_NAME, BUTTON_TEXT, COMMAND_RESULT_TEXT, PARENT_COMMAND);
