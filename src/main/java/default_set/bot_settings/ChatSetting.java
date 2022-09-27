@@ -42,7 +42,7 @@ public class ChatSetting {
         currencyList.add(Currency.USD);
         setting.setCurrencies(currencyList);
         setting.setReminderTime(13);
-        setting.setLocale(new Locale("us"));
+        setting.setLocale(new Locale("ua"));
         return setting;
 
     }

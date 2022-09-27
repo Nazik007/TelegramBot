@@ -14,9 +14,6 @@ import default_set.bot_settings.bot_commands.setting.currency.CurrencySetting;
 import default_set.bot_settings.bot_commands.setting.currency.options.EUR;
 import default_set.bot_settings.bot_commands.setting.currency.options.GBP;
 import default_set.bot_settings.bot_commands.setting.currency.options.USD;
-import default_set.bot_settings.bot_commands.setting.languages.LanguagesSetting;
-import default_set.bot_settings.bot_commands.setting.languages.options.LanguageUA;
-import default_set.bot_settings.bot_commands.setting.languages.options.LanguageUS;
 import default_set.bot_settings.bot_commands.setting.reminders.ReminderSetting;
 import default_set.bot_settings.bot_commands.setting.reminders.options.SetReminderAt10;
 import default_set.bot_settings.bot_commands.setting.reminders.options.SetReminderAt11;
@@ -41,7 +38,6 @@ import java.util.*;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
-import java.util.stream.Stream;
 
 public class TelegramBot extends TelegramLongPollingBot  {
 
@@ -79,28 +75,6 @@ public class TelegramBot extends TelegramLongPollingBot  {
 
     public static String getBackButtonText() {
         return backButtonText;
-    }
-
-    public static void changeLocal(Locale locale) {
-        ResourceBundle bundle = ResourceBundle.getBundle("resources", locale);
-
-        setHomeButtonText(bundle.getString("homeButtonText"));
-        setBackButtonText(bundle.getString("backButtonText"));
-
-        GetInfo.setBuyText(bundle.getString("buyText"));
-        GetInfo.setCourseText(bundle.getString("courseText"));
-        GetInfo.setResultText(bundle.getString("resultText"));
-        GetInfo.setSellText(bundle.getString("sellText"));
-
-        banks.stream().forEach(bank -> bank.setName(bundle.getString(bank.getCommandName())));
-
-        Stream.concat(editCommands.stream(), sendCommands.stream())
-                .forEach(command -> {
-                    command.setCommandResultText(bundle.getString(command.getCommandName() + "commandResultText".toUpperCase()));
-                    command.setButtonText(bundle.getString(command.getCommandName() + "buttonText".toUpperCase()));
-                });
-
-        sendCommands.stream().forEach(SendCommand::setSettingsButtons);
     }
 
     private static void setBackButtonText(String backButtonText) {
@@ -159,7 +133,6 @@ public class TelegramBot extends TelegramLongPollingBot  {
         sendCommands.add(new RoundSetting());
         sendCommands.add(new GetInfo());
         sendCommands.add(new ReminderSetting());
-        sendCommands.add(new LanguagesSetting());
         sendCommands.add(new Setting());
         sendCommands.add(new Start());
     }
@@ -178,8 +151,7 @@ public class TelegramBot extends TelegramLongPollingBot  {
         editCommands.add(new SetReminderAt10());
         editCommands.add(new SetReminderAt11());
         editCommands.add(new SetRemindersAt12());
-        editCommands.add(new LanguageUA());
-        editCommands.add(new LanguageUS());
+
     }
 
     public static String getHomeButtonText() {

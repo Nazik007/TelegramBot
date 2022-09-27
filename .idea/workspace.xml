@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="120ec15c-2a1e-4997-ac75-22d938712f58" name="Changes" comment="Changed text from ru to UA">
+    <list default="true" id="120ec15c-2a1e-4997-ac75-22d938712f58" name="Changes" comment="Tried to create the new one to work">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/ChatSetting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/ChatSetting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/TelegramBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/TelegramBot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/info/GetInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/info/GetInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/languages/LanguagesSetting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/languages/options/LanguageUA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/languages/options/LanguageUS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/reminders/options/SetRemindersAtNone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/reminders/options/SetRemindersAtNone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/Resource_ua.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/Resources_us.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +37,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -102,28 +109,7 @@
       <option name="project" value="LOCAL" />
       <updated>1664139084645</updated>
     </task>
-    <task id="LOCAL-00004" summary="Added GPB for Privat">
-      <created>1664191635995</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1664191635995</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Changed buttons from ru to UA">
-      <created>1664195308040</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1664195308040</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Changed text from ru to UA">
-      <created>1664195765397</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1664195765397</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,9 +130,6 @@
     <MESSAGE value="Added logic and created template of the program" />
     <MESSAGE value="Fixed the issue with languages" />
     <MESSAGE value="Tried to create the new one to work" />
-    <MESSAGE value="Added GPB for Privat" />
-    <MESSAGE value="Changed buttons from ru to UA" />
-    <MESSAGE value="Changed text from ru to UA" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed text from ru to UA" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tried to create the new one to work" />
   </component>
 </project>
