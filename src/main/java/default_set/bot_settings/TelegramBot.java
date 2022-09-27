@@ -15,10 +15,7 @@ import default_set.bot_settings.bot_commands.setting.currency.options.EUR;
 import default_set.bot_settings.bot_commands.setting.currency.options.GBP;
 import default_set.bot_settings.bot_commands.setting.currency.options.USD;
 import default_set.bot_settings.bot_commands.setting.reminders.ReminderSetting;
-import default_set.bot_settings.bot_commands.setting.reminders.options.SetReminderAt10;
-import default_set.bot_settings.bot_commands.setting.reminders.options.SetReminderAt11;
-import default_set.bot_settings.bot_commands.setting.reminders.options.SetReminderAt9;
-import default_set.bot_settings.bot_commands.setting.reminders.options.SetRemindersAt12;
+import default_set.bot_settings.bot_commands.setting.reminders.options.*;
 import default_set.bot_settings.bot_commands.setting.round.Options.RoundToFour;
 import default_set.bot_settings.bot_commands.setting.round.Options.RoundToThree;
 import default_set.bot_settings.bot_commands.setting.round.Options.RoundToTwo;
@@ -151,6 +148,13 @@ public class TelegramBot extends TelegramLongPollingBot  {
         editCommands.add(new SetReminderAt10());
         editCommands.add(new SetReminderAt11());
         editCommands.add(new SetRemindersAt12());
+        editCommands.add(new SetRemindersAt13());
+        editCommands.add(new SetRemindersAt14());
+        editCommands.add(new SetRemindersAt15());
+        editCommands.add(new SetRemindersAt16());
+        editCommands.add(new SetRemindersAt17());
+//        editCommands.add(new SetRemindersAt18()); just to have the None notification as separte button
+        editCommands.add(new SetRemindersAtNone());
 
     }
 
