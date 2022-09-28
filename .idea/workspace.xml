@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="120ec15c-2a1e-4997-ac75-22d938712f58" name="Changes" comment="Changed the classes we have discussed during the call">
+    <list default="true" id="120ec15c-2a1e-4997-ac75-22d938712f58" name="Changes" comment="Added all the Reminders Classes and Buttons">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/banks_util/monobank/CurrencyCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/banks_util/monobank/CurrencyCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/banks_util/monobank/MonobankUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/banks_util/monobank/MonobankUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/ChatSetting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/ChatSetting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/Command.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/TelegramBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/TelegramBot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/info/GetInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/info/GetInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/reminders/options/SetRemindersAt15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/reminders/options/SetRemindersAt15.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/reminders/options/SetRemindersAt16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/reminders/options/SetRemindersAt16.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/reminders/options/SetRemindersAt17.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/reminders/options/SetRemindersAt17.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/reminders/options/SetRemindersAt18.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/default_set/bot_settings/bot_commands/setting/reminders/options/SetRemindersAt18.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664307039357</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added all the Reminders Classes and Buttons">
+      <created>1664310416943</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664310416943</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +142,7 @@
     <MESSAGE value="Fixed the issue with languages" />
     <MESSAGE value="Tried to create the new one to work" />
     <MESSAGE value="Changed the classes we have discussed during the call" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed the classes we have discussed during the call" />
+    <MESSAGE value="Added all the Reminders Classes and Buttons" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added all the Reminders Classes and Buttons" />
   </component>
 </project>

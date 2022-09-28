@@ -7,6 +7,7 @@ public class CurrencyCode {
 
     static public final List<Code> codes = new ArrayList<>();
 
+//    added all the codes in Monobank just in case
     static {
         codes.add(new Code(971, "AFN"));
         codes.add(new Code(978, "EUR"));

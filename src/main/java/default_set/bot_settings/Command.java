@@ -24,13 +24,15 @@ public class Command {
         return parentCommand;
     }
 
-    public void setButtonText(String buttonText) {
-        this.buttonText = buttonText;
-    }
 
-    public void setCommandResultText(String commandResultText) {
-        this.commandResultText = commandResultText;
-    }
+//USELESSPART
+//    public void setButtonText(String buttonText) {
+//        this.buttonText = buttonText;
+//    }
+//
+//    public void setCommandResultText(String commandResultText) {
+//        this.commandResultText = commandResultText;
+//    }
 
     public boolean canExecute (String commandName) {
         return  this.commandName.equalsIgnoreCase(commandName);

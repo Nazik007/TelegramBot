@@ -51,9 +51,10 @@ public class ChatSetting {
         return chatId;
     }
 
-    public void setChatId(long chatId) {
-        this.chatId = chatId;
-    }
+//    USELESS PART
+//    public void setChatId(long chatId) {
+//        this.chatId = chatId;
+//    }
 
     public int getRoundDigit() {
         return roundDigit;
@@ -87,9 +88,10 @@ public class ChatSetting {
         this.currencies = currencies;
     }
 
-    public Locale getLocale() {
-        return locale;
-    }
+    //    USELESS PART
+//    public Locale getLocale() {
+//        return locale;
+//    }
 
     public void setLocale(Locale locale) {
         this.locale = locale;

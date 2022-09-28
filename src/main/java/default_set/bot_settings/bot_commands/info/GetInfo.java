@@ -72,21 +72,22 @@ public class GetInfo extends SendCommand {
         return sendMessage;
     }
 
-    public static void setResultText(String resultText) {
-        GetInfo.resultText = resultText;
-    }
-
-    public static void setBuyText(String buyText) {
-        GetInfo.buyText = buyText;
-    }
-
-    public static void setSellText(String sellText) {
-        GetInfo.sellText = sellText;
-    }
-
-    public static void setCourseText(String courseText) {
-        GetInfo.courseText = courseText;
-    }
+//    THIS PART IS USELESS
+//    public static void setResultText(String resultText) {
+//        GetInfo.resultText = resultText;
+//    }
+//
+//    public static void setBuyText(String buyText) {
+//        GetInfo.buyText = buyText;
+//    }
+//
+//    public static void setSellText(String sellText) {
+//        GetInfo.sellText = sellText;
+//    }
+//
+//    public static void setCourseText(String courseText) {
+//        GetInfo.courseText = courseText;
+//    }
 
     @Override
     public List<List<InlineKeyboardButton>> getKeyboard(ChatSetting chatSetting) {

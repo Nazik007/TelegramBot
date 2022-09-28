@@ -16,7 +16,7 @@ public class MonobankUtils extends Bank  {
     public static final String COMMAND_NAME = "/setMonobank";
     protected static final String NAME = "Монобанк";
 
-    private final static Type typeToken = new TypeToken<List<MonoExchange>>() {
+    private final static Type typeToken = new TypeToken<List<MonoExchange>>(){
     }.getType();
     private static final List<Exchange> exchanges = new ArrayList<>();
 

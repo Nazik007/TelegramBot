@@ -153,7 +153,7 @@ public class TelegramBot extends TelegramLongPollingBot  {
         editCommands.add(new SetRemindersAt15());
         editCommands.add(new SetRemindersAt16());
         editCommands.add(new SetRemindersAt17());
-//        editCommands.add(new SetRemindersAt18()); just to have the None notification as separte button
+//        editCommands.add(new SetRemindersAt18()); just to have the None notification as separte button not using the 18 hour
         editCommands.add(new SetRemindersAtNone());
 
     }
